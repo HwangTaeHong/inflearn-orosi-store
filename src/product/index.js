@@ -36,7 +36,6 @@ function ProductPage() {
         <div id="createdAt">2022년 11월 15일</div>
         <div id="name">{products.name}</div>
         <div id="price">{products.price}원</div>
-
         <div id="description">{products.description}</div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import { Switch, Route, Link, useHistory } from "react-router-dom";
 import UploadPage from "./upload";
 import ProductPage from "./product";
 import { Button } from "antd";
-import { DownloadOutlined } from "@ant-design/icons";
+import { UploadOutlined } from "@ant-design/icons";
 
 function App() {
   const history = useHistory();
@@ -21,7 +21,7 @@ function App() {
             onClick={function () {
               history.push("/upload");
             }}
-            icon={<DownloadOutlined />}
+            icon={<UploadOutlined />}
           >
             상품 등록하기
           </Button>
